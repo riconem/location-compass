@@ -1,5 +1,20 @@
 # Location Compass
 
+- [Location Compass](#location-compass)
+- [Overview](#overview)
+- [Hardware Components](#hardware-components)
+- [Software Components](#software-components)
+  - [Functionality](#functionality)
+  - [Constants and Variables](#constants-and-variables)
+- [Main Files](#main-files)
+  - [main.cpp](#maincpp)
+  - [calibration.h](#calibrationh)
+  - [helpers.h](#helpersh)
+  - [location.h](#locationh)
+- [Reasearch](#reasearch)
+  - [Compass Calibration](#compass-calibration)
+  - [Calculate Direction](#calculate-direction)
+
 # Overview
 
 This project is a location-compass system running on an ESP32 microcontroller. It integrates several modules including a stepper motor, GPS module, and a compass module. The system is designed to point to specific locations using the stepper motor, guided by GPS coordinates and compass direction. It was designed for a Kiosktour in Hannover, Germany.
