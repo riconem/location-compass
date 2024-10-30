@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "location-compass"
+version = "0.0.0"
+description = ""
+authors = ["riconem"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+matplotlib = "^3.9.2"
+folium = "^0.18.0"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

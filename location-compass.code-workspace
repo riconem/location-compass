@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "pio-compass-calibration",
+			"path": "platformio/compass-calibration"
+		},
+		{
+			"name": "pio-compass-logger",
+			"path": "platformio/compass-logger"
+		},
+		{
+			"name": "pio-location-compass",
+			"path": "platformio/location-compass"
+		},
+		{
+			"name": "preferences-test",
+			"path": "platformio/preferences-test"
+		},
+		{
+			"path": "../../../Documents/PlatformIO/Projects/gy-neo06mv2"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"new": "cpp",
+			"chrono": "cpp",
+			"cmath": "cpp"
+		}
+	}
+}
