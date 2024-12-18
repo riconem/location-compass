@@ -10,7 +10,7 @@
   - [main.cpp](#maincpp)
   - [calibration.h](#calibrationh)
   - [helpers.h](#helpersh)
-  - [location.h](#locationh)
+  - [locations.h](#locationsh)
 - [Reasearch](#reasearch)
   - [Compass Calibration](#compass-calibration)
   - [Calculate Direction](#calculate-direction)
@@ -59,7 +59,7 @@ Contains functions and definitions for calibrating the compass module on the ESP
 ## [helpers.h](platformio/location-compass/src/helpers.h)
 Contains utility functions for the location-compass system, including functions for printing GPS time, calculating distances, and managing time-related operations.
 
-## [location.h](platformio/location-compass/src/location.h)
+## [locations.h](platformio/location-compass/src/locations.h)
 Defines a Location structure to store geographical coordinates and opening hours, and initializes an array of Location instances with specific latitude, longitude, and weekly opening hours data.
 
 # Reasearch
