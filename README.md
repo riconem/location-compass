@@ -11,7 +11,7 @@
   - [calibration.h](#calibrationh)
   - [helpers.h](#helpersh)
   - [locations.h](#locationsh)
-- [Reasearch](#reasearch)
+- [Research](#research)
   - [Compass Calibration](#compass-calibration)
   - [Calculate Direction](#calculate-direction)
 
@@ -62,7 +62,7 @@ Contains utility functions for the location-compass system, including functions 
 ## [locations.h](platformio/location-compass/src/locations.h)
 Defines a Location structure to store geographical coordinates and opening hours, and initializes an array of Location instances with specific latitude, longitude, and weekly opening hours data.
 
-# Reasearch
+# Research
 ## Compass Calibration
 The compass module used in the location-compass system requires calibration to provide accurate heading directions. The calibration process involves collecting data points in different orientations and calculating offsets and scales to correct the raw readings. The calibration algorithm is based on the [calibration.py](scripts/compass-calibration/calibration.py) script by Fabio Varesano, which uses a least-squares method to estimate the calibration parameters.
 
